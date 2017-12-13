@@ -1,0 +1,310 @@
+body {
+	background-image: url(../../assets/images/circles-light.png);
+	}
+/*example code for locating background image */
+/*'../../images/image.png'*/
+header {
+	width: 100vw;
+	float: left;
+	background-color: #ffffff;
+	border-bottom: 3px #dddddd solid;
+}
+
+table {
+	margin-top: 35px;
+	position: absolute;
+	float: left;
+	margin-left: 670px;
+    border: none;
+    border-collapse: collapse;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+td {
+	text-decoration: none;
+	padding: 0px 25px 0px 25px;
+	margin-top: 25px;
+    border-left: 1px solid #777777;
+}
+
+td a {
+	text-decoration: none;
+    color: #777777;
+}
+
+table td:first-child {
+    border-left: none;
+}
+
+
+h1 {
+	float: left;
+	text-align: center;
+	padding: 25px;
+	color: white;
+	font-family: Georgia, Times, Times New Roman, serif;
+	font-size: 28px;
+	font-weight: bold;
+	background-color: #4aaaa5;
+	}
+
+section {
+	margin: auto;
+	width: 960px;
+}
+
+.marginhead {
+	width: 960px;
+	margin: auto;
+}
+
+article {
+    position: relative;
+    background-color: #ffffff;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    margin-top: 20px;
+    float: left;
+    width: 650px;
+}
+
+h2 {
+    margin: 15px;
+    padding: 30px 10px 30px 10px;
+    border-bottom: solid 1px lightgrey;
+    width: 600px;
+    font-family: Georgia, Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h3 {
+	border-bottom: solid 1px;
+	padding: 25px;
+}
+
+aside {
+	float: right;
+	margin-top: 20px;
+	text-align: center;
+	padding: 15px;
+	width: 240px;
+	height: 170px;
+	background-color: #ffffff;
+	color: #4aaaa5;
+}
+
+p {
+    line-height: 24px;
+    padding: 0px 30px 30px 30px;
+    text-align: justify;
+}
+
+footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	z-index: 2;
+	border-top: solid 6px teal;
+	padding-top: 20px;
+	text-align: center;
+	background-color: #666666;
+	width: 100%;
+	clear: both;
+}
+
+footer p {
+		 text-align: center;
+		 color: #ffffff;
+}
+
+a:link {
+	color: red;
+	text-dectoration:none;
+}
+a:visited { color: green:
+}
+a:hover {background-color: blue;
+	color: white;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a:active { background-color:orange;
+}
+
+.pic {
+ 	position: relative;
+}
+
+ .pic1 {
+ 	left: 15px;
+	max-height: 300px;
+	max-width: 300px;
+}
+
+ .pic2 {
+ 	left: 335px;
+ 	top: -300px;
+	max-height: 300px;
+	max-width: 300px;
+}
+
+.pic3 {
+ 	left: 15px;
+ 	top: -280px;
+	max-height: 300px;
+	max-width: 300px;
+}
+
+ .pic4 {
+ 	left: 335px;
+ 	top: -580px;
+	max-height: 300px;
+	max-width: 300px;
+}
+
+.pic5 {
+ 	left: 15px;
+ 	top: -560px;
+	max-height: 300px;
+	max-width: 300px;
+}
+
+ .pic6 {
+ 	left: 335px;
+ 	top: -860px;
+	max-height: 300px;
+	max-width: 300px;
+}
+
+.banner {
+	position: absolute;
+	height: 40px;
+	width: 300px;
+	z-index: 1;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.banner1 {
+    left: 15px;
+    top: 375px;
+}
+
+
+.banner2 {
+    left: 335px;
+    top: 375px;
+}
+
+
+.banner3 {
+    left: 15px;
+    top: 695px;
+}
+
+
+.banner4 {
+    left: 335px;
+    top: 695px;
+}
+
+
+.banner5 {
+    left: 15px;
+    top: 1015px;
+}
+
+
+.banner6 {
+    left: 335px;
+    top: 1015px;
+}
+
+/*Forms*/
+
+
+form {
+    margin: 0px 20px 0px 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding-bottom: 25px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+textarea {
+	color: #777777;
+}
+
+/*Submit button*/
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+	article {
+		position: relative;
+		background-color: #ffffff;
+		/* padding-left: 10px; */
+		/* padding-right: 10px; */
+		margin-top: 20px;
+		float: left;
+		max-width: 67%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	aside {
+		position: relative;
+		/* background-color: #bada55; */
+		/* padding-left: 10px; */
+		/* padding-right: 10px; */
+		/* margin-top: 20px; */
+		/* float: left; */
+		max-width: 100%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* img.responsive (bootstrap) */
+
+
+
+
+
+
